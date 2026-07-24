@@ -56,7 +56,7 @@ Create/update the json version of this model name/pricing.
     - `claude-opus-4-1`, `claude-sonnet-4`,
     - `claude-3-7-sonnet`, `claude-opus-4`, `claude-3-5-haiku`
   - So match the model names in the pages to those one.
-  - For Anthropic Models (Claude), Make sure to have only one `recent: true` for each model type, Sonnet, Haiku, Opus. Pick the highest number for each of them to mark as `recent: true`
+  - For Anthropic Models (Claude), Make sure to have only one `recent: true` for each model type, Sonnet, Haiku, Opus, Fable. Pick the highest number for each of them to mark as `recent: true`
   - Make sure to remove / not add the "deprecated" ones
   - For Anthropic Models (Claude), the name/value is inverse. For value, and then, label of this value.
   - For Anthropic Models (Claude), when caching write value, put it in `.cache_write`, and then, the cache value goes in `.cached`

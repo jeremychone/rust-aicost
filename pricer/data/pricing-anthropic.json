@@ -18,6 +18,16 @@
         "normal": 10
       },
       "output": 50,
+      "recent": false
+    },
+    {
+      "name": "claude-opus-5",
+      "input": {
+        "cache_write": 6.25,
+        "cached": 0.5,
+        "normal": 5
+      },
+      "output": 25,
       "recent": true
     },
     {
@@ -28,7 +38,7 @@
         "normal": 5
       },
       "output": 25,
-      "recent": true
+      "recent": false
     },
     {
       "name": "claude-opus-4-7",

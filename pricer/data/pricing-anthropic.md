@@ -16,6 +16,7 @@ The following table shows pricing for all Claude models:
 | ----------------------------------------- | ----------------- | --------------- | --------------- | ---------------------- | ------------- |
 | Claude Fable 5                            | $10 / MTok        | $12.50 / MTok   | $20 / MTok      | $1 / MTok              | $50 / MTok    |
 | Claude Mythos 5 ([limited availability]   | $10 / MTok        | $12.50 / MTok   | $20 / MTok      | $1 / MTok              | $50 / MTok    |
+| Claude Opus 5                             | $5 / MTok         | $6.25 / MTok    | $10 / MTok      | $0.50 / MTok           | $25 / MTok    |
 | Claude Opus 4.8                           | $5 / MTok         | $6.25 / MTok    | $10 / MTok      | $0.50 / MTok           | $25 / MTok    |
 | Claude Opus 4.7                           | $5 / MTok         | $6.25 / MTok    | $10 / MTok      | $0.50 / MTok           | $25 / MTok    |
 | Claude Opus 4.6                           | $5 / MTok         | $6.25 / MTok    | $10 / MTok      | $0.50 / MTok           | $25 / MTok    |
