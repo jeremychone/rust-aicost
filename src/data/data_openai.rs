@@ -15,16 +15,16 @@ const OPENAI_MODELS: &[ModelPricing] = &[
 	},
 	ModelPricing {
 		name: "gpt-5.6-terra",
-		input_cached: Some(0.25),
-		input_normal: 2.5,
-		output_normal: 15.0,
+		input_cached: Some(0.2),
+		input_normal: 2.0,
+		output_normal: 12.0,
 		output_reasoning: None,
 	},
 	ModelPricing {
 		name: "gpt-5.6-luna",
-		input_cached: Some(0.1),
-		input_normal: 1.0,
-		output_normal: 6.0,
+		input_cached: Some(0.02),
+		input_normal: 0.2,
+		output_normal: 1.2,
 		output_reasoning: None,
 	},
 	ModelPricing {
