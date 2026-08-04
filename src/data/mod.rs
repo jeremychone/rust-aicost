@@ -7,6 +7,7 @@ mod data_kimi;
 mod data_mimo;
 mod data_minimax;
 mod data_openai;
+mod data_qwen_cloud;
 mod data_together;
 mod data_xai;
 mod data_zai;
@@ -20,6 +21,7 @@ pub const PROVIDERS: &[ProviderPricing] = &[
 	data_deepseek::DEEPSEEK,
 	data_anthropic::ANTHROPIC,
 	data_xai::XAI,
+	data_qwen_cloud::QWEN_CLOUD,
 	data_fireworks::FIREWORKS,
 	data_together::TOGETHER,
 	data_zai::ZAI,
