@@ -8,16 +8,16 @@ pub const DEEPSEEK: ProviderPricing = ProviderPricing {
 const DEEPSEEK_MODELS: &[ModelPricing] = &[
 	ModelPricing {
 		name: "deepseek-v4-flash",
-		input_cached: Some(0.0028),
-		input_normal: 0.14,
-		output_normal: 0.28,
+		input_cached: Some(0.007),
+		input_normal: 0.22,
+		output_normal: 0.66,
 		output_reasoning: None,
 	},
 	ModelPricing {
 		name: "deepseek-v4-pro",
-		input_cached: Some(0.003625),
-		input_normal: 0.435,
-		output_normal: 0.87,
+		input_cached: Some(0.022),
+		input_normal: 0.66,
+		output_normal: 1.98,
 		output_reasoning: None,
 	},
 	ModelPricing {
