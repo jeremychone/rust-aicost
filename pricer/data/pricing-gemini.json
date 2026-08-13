@@ -1,14 +1,24 @@
 {
   "models": [
     {
+      "name": "gemini-3.7-flash",
+      "input": {
+        "cache_write": null,
+        "cached": 0.075,
+        "normal": 0.75
+      },
+      "output": 3.75,
+      "recent": true
+    },
+    {
       "name": "gemini-3.6-flash",
       "input": {
         "cache_write": null,
-        "cached": 0.15,
-        "normal": 1.5
+        "cached": 0.075,
+        "normal": 0.75
       },
-      "output": 7.5,
-      "recent": true
+      "output": 3.75,
+      "recent": false
     },
     {
       "name": "gemini-3.5-flash",
@@ -41,6 +51,16 @@
       "recent": false
     },
     {
+      "name": "gemini-omni-flash",
+      "input": {
+        "cache_write": null,
+        "cached": null,
+        "normal": 1.5
+      },
+      "output": 9,
+      "recent": false
+    },
+    {
       "name": "gemini-3.1-pro",
       "input": {
         "cache_write": null,
@@ -51,6 +71,26 @@
       "recent": true
     },
     {
+      "name": "gemini-3.1-flash-image",
+      "input": {
+        "cache_write": null,
+        "cached": null,
+        "normal": 0.5
+      },
+      "output": 3,
+      "recent": false
+    },
+    {
+      "name": "gemini-3.1-flash-lite-image",
+      "input": {
+        "cache_write": null,
+        "cached": null,
+        "normal": 0.25
+      },
+      "output": 1.5,
+      "recent": false
+    },
+    {
       "name": "gemini-3-flash",
       "input": {
         "cache_write": null,
@@ -58,6 +98,16 @@
         "normal": 0.5
       },
       "output": 3,
+      "recent": false
+    },
+    {
+      "name": "gemini-3-pro-image",
+      "input": {
+        "cache_write": null,
+        "cached": null,
+        "normal": 2
+      },
+      "output": 12,
       "recent": false
     },
     {
@@ -91,6 +141,16 @@
       "recent": false
     },
     {
+      "name": "gemini-2.5-flash-image",
+      "input": {
+        "cache_write": null,
+        "cached": null,
+        "normal": 0.3
+      },
+      "output": 0.039,
+      "recent": false
+    },
+    {
       "name": "gemini-2.0-flash",
       "input": {
         "cache_write": null,
@@ -111,14 +171,24 @@
       "recent": false
     },
     {
-      "name": "gemini-omni-flash",
+      "name": "gemini-embedding-2",
       "input": {
         "cache_write": null,
         "cached": null,
-        "normal": 1.5
+        "normal": 0.2
       },
-      "output": 9,
-      "recent": true
+      "output": 0,
+      "recent": false
+    },
+    {
+      "name": "gemini-embedding",
+      "input": {
+        "cache_write": null,
+        "cached": null,
+        "normal": 0.15
+      },
+      "output": 0,
+      "recent": false
     },
     {
       "name": "gemini-robotics-er-1.6",
@@ -128,7 +198,7 @@
         "normal": 1
       },
       "output": 5,
-      "recent": true
+      "recent": false
     },
     {
       "name": "gemini-2.5-computer-use",
@@ -138,7 +208,7 @@
         "normal": 1.25
       },
       "output": 10,
-      "recent": true
+      "recent": false
     },
     {
       "name": "gemini-flash-latest",
@@ -164,7 +234,7 @@
       "name": "gemini-pro-latest",
       "input": {
         "cache_write": null,
-        "cached": 0.2,
+        "cached": null,
         "normal": 2
       },
       "output": 12,

@@ -7,17 +7,24 @@ pub const GEMINI: ProviderPricing = ProviderPricing {
 
 const GEMINI_MODELS: &[ModelPricing] = &[
 	ModelPricing {
+		name: "gemini-3.7-flash",
+		input_cached: Some(0.075),
+		input_normal: 0.75,
+		output_normal: 3.75,
+		output_reasoning: None,
+	},
+	ModelPricing {
 		name: "gemini-3.6-flash",
-		input_cached: Some(0.15),
-		input_normal: 1.5,
-		output_normal: 7.5,
+		input_cached: Some(0.075),
+		input_normal: 0.75,
+		output_normal: 3.75,
 		output_reasoning: None,
 	},
 	ModelPricing {
 		name: "gemini-3.5-flash",
 		input_cached: Some(0.15),
 		input_normal: 1.5,
-		output_normal: 7.5,
+		output_normal: 9.0,
 		output_reasoning: None,
 	},
 	ModelPricing {
@@ -53,6 +60,13 @@ const GEMINI_MODELS: &[ModelPricing] = &[
 		input_cached: None,
 		input_normal: 0.5,
 		output_normal: 3.0,
+		output_reasoning: None,
+	},
+	ModelPricing {
+		name: "gemini-3.1-flash-lite-image",
+		input_cached: None,
+		input_normal: 0.25,
+		output_normal: 1.5,
 		output_reasoning: None,
 	},
 	ModelPricing {
@@ -101,7 +115,7 @@ const GEMINI_MODELS: &[ModelPricing] = &[
 		name: "gemini-2.5-flash-image",
 		input_cached: None,
 		input_normal: 0.3,
-		output_normal: 2.5,
+		output_normal: 0.039,
 		output_reasoning: None,
 	},
 	ModelPricing {
@@ -147,7 +161,14 @@ const GEMINI_MODELS: &[ModelPricing] = &[
 		output_reasoning: None,
 	},
 	ModelPricing {
-		name: "gemini-embedding-001",
+		name: "gemini-embedding-2",
+		input_cached: None,
+		input_normal: 0.2,
+		output_normal: 0.0,
+		output_reasoning: None,
+	},
+	ModelPricing {
+		name: "gemini-embedding",
 		input_cached: None,
 		input_normal: 0.15,
 		output_normal: 0.0,
