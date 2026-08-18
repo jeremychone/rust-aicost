@@ -1,12 +1,14 @@
 | **Model identifier**                  | **Input** | **Cached Input** | **Output** |
 | ------------------------------------- | --------- | ---------------- | ---------- |
-| `fireworks/kimi-k3`                   | $3.00     |   $0.30          | $15.00     |
+| `fireworks/qwen3p8-2p4t-a95b`         | $2.00     | $0.25            | $6.00      |
+| `fireworks/muse-glimmer-30b`          | $0.35     | $0.04            | $1.50      |
+| `fireworks/deepseek-v4-pro`           | $1.32     | $0.044           | $3.96      |
+| `fireworks/deepseek-v4-flash`         | $0.44     | $0.014           | $1.32      |
+| `fireworks/kimi-k3`                   | $3.00     | $0.30            | $15.00     |
 | `fireworks/glm-5p2`                   | $1.40     | $0.26            | $4.40      |
 | `fireworks/minimax-m3`                | $0.30     | $0.06            | $1.20      |
 | `fireworks/qwen3p7-plus`              | $0.40     | $0.08            | $1.60      |
 | `fireworks/kimi-k2p7-code`            | $0.95     | $0.19            | $4.00      |
-| `fireworks/deepseek-v4-pro`           | $1.74     | $0.0145          | $3.48      |
-| `fireworks/deepseek-v4-flash`         | $0.14     | $0.03            | $0.28      |
 | `fireworks/kimi-k2p6`                 | $0.95     | -                | $4.00      |
 | `fireworks/minimax-m2p7`              | $0.30     | $0.06            | $1.20      |
 | `fireworks/qwen3p6-plus`              | $0.50     | $0.10            | $3.00      |

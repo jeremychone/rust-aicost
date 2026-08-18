@@ -1,6 +1,46 @@
 {
   "models": [
     {
+      "name": "qwen3p8-2p4t-a95b",
+      "input": {
+        "cache_write": null,
+        "cached": 0.25,
+        "normal": 2
+      },
+      "output": 6,
+      "recent": true
+    },
+    {
+      "name": "muse-glimmer-30b",
+      "input": {
+        "cache_write": null,
+        "cached": 0.04,
+        "normal": 0.35
+      },
+      "output": 1.5,
+      "recent": true
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "input": {
+        "cache_write": null,
+        "cached": 0.044,
+        "normal": 1.32
+      },
+      "output": 3.96,
+      "recent": true
+    },
+    {
+      "name": "deepseek-v4-flash",
+      "input": {
+        "cache_write": null,
+        "cached": 0.014,
+        "normal": 0.44
+      },
+      "output": 1.32,
+      "recent": true
+    },
+    {
       "name": "kimi-k3",
       "input": {
         "cache_write": null,
@@ -38,7 +78,7 @@
         "normal": 0.4
       },
       "output": 1.6,
-      "recent": true
+      "recent": false
     },
     {
       "name": "kimi-k2p7-code",
@@ -49,26 +89,6 @@
       },
       "output": 4,
       "recent": false
-    },
-    {
-      "name": "deepseek-v4-pro",
-      "input": {
-        "cache_write": null,
-        "cached": 0.0145,
-        "normal": 1.74
-      },
-      "output": 3.48,
-      "recent": true
-    },
-    {
-      "name": "deepseek-v4-flash",
-      "input": {
-        "cache_write": null,
-        "cached": 0.03,
-        "normal": 0.14
-      },
-      "output": 0.28,
-      "recent": true
     },
     {
       "name": "kimi-k2p6",
@@ -128,7 +148,7 @@
         "normal": 0.56
       },
       "output": 1.68,
-      "recent": false
+      "recent": true
     },
     {
       "name": "glm-5",
