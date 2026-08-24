@@ -7,7 +7,7 @@
     },
     {
       "name": "openai",
-      "do_json": false,
+      "do_json": true,
       "url": ""
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "name": "fireworks",
-      "do_json": true,
+      "do_json": false,
       "url": ""
     },
     {

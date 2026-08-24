@@ -3,11 +3,11 @@
     {
       "name": "gpt-5.6-sol",
       "input": {
-        "cache_write": 6.25,
+        "cache_write": 5,
         "cached": 0.5,
-        "normal": 5
+        "normal": 4
       },
-      "output": 30,
+      "output": 20,
       "recent": true
     },
     {
