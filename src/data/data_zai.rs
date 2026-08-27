@@ -7,6 +7,34 @@ pub const ZAI: ProviderPricing = ProviderPricing {
 
 const ZAI_MODELS: &[ModelPricing] = &[
 	ModelPricing {
+		name: "glm-5.3-flash",
+		input_cached: Some(0.03),
+		input_normal: 0.15,
+		output_normal: 0.5,
+		output_reasoning: None,
+	},
+	ModelPricing {
+		name: "glm-5.3",
+		input_cached: Some(0.26),
+		input_normal: 1.4,
+		output_normal: 4.4,
+		output_reasoning: None,
+	},
+	ModelPricing {
+		name: "glm-5.2",
+		input_cached: Some(0.26),
+		input_normal: 1.4,
+		output_normal: 4.4,
+		output_reasoning: None,
+	},
+	ModelPricing {
+		name: "glm-5.1",
+		input_cached: Some(0.26),
+		input_normal: 1.4,
+		output_normal: 4.4,
+		output_reasoning: None,
+	},
+	ModelPricing {
 		name: "glm-5",
 		input_cached: Some(0.2),
 		input_normal: 1.0,

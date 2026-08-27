@@ -4,10 +4,10 @@
       "name": "glm-5.3-flash",
       "input": {
         "cache_write": null,
-        "cached": 0.015,
-        "normal": 0.075
+        "cached": 0.03,
+        "normal": 0.15
       },
-      "output": 0.25,
+      "output": 0.5,
       "recent": true
     },
     {

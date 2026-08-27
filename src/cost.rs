@@ -236,6 +236,31 @@ mod tests {
 
 		Ok(())
 	}
+
+	#[test]
+	fn test_cost_compute_zai_glm_5_3_flash() -> TestResult {
+		// -- Setup & Fixtures
+		let usage = Usage {
+			prompt_tokens: Some(1000),
+			completion_tokens: Some(500),
+			prompt_tokens_details: None,
+			..Default::default()
+		};
+		let fx_expected_input = 1000. * 0.15 / 1_000_000.;
+		let fx_expected_output = 500. * 0.50 / 1_000_000.;
+		let fx_total = fx_expected_input + fx_expected_output;
+
+		// -- Exec
+		let ai_cost = compute("zai", "glm-5.3-flash", &usage)?;
+
+		// -- Check
+		let price = ai_cost.total;
+		assert!((price - fx_total).abs() < f64::EPSILON);
+		assert_eq!(ai_cost.input_normal, fx_expected_input);
+		assert_eq!(ai_cost.output_normal, fx_expected_output);
+
+		Ok(())
+	}
 }
 
 // endregion: --- Tests

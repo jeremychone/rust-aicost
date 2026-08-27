@@ -96,6 +96,7 @@ Create/update the json version of this model name/pricing.
 
 - Make sure all models are all lowercase
 - only take the Text Models (ignore the other models)
+- Take the non-discounted pricing
 - when cache storage/write is `Cached Input Storage` then, keep it "null" in the json
 - Make sure only the lastest glm (one with the flash and one without) is marked `recent: true`
 
