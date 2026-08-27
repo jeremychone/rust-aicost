@@ -5,7 +5,7 @@ Create/update the json version of this model name/pricing.
 # kimi
 
 - Make k3 and k2.7 `recent: true` the rest `recent: false`
-- 
+
 # xai
 
 - Make sure only the latest models version have the `recent: true` others should be `recent: false` (per model name)
@@ -97,7 +97,7 @@ Create/update the json version of this model name/pricing.
 - Make sure all models are all lowercase
 - only take the Text Models (ignore the other models)
 - when cache storage/write is `Cached Input Storage` then, keep it "null" in the json
-- Make sure only the lastest glm is marked `recent: true`
+- Make sure only the lastest glm (one with the flash and one without) is marked `recent: true`
 
 # kimi
 

@@ -8,14 +8,15 @@
 
 ## Models
 
-### Text Models
+### Latest Models
 
 Prices per 1M tokens.
 
-| Model               | Input  | Cached Input | Cached Input Storage | Output |
-| :------------------ | :----- | :----------- | :------------------- | :----- |
-| GLM-5.3             | \$1.4  | \$0.26       | Limited-time Free    | \$4.4  |
-| GLM-5.2             | \$1.4  | \$0.26       | Limited-time Free    | \$4.4  |
+| Model         | Input              | Cached Input       | Cached Input Storage | Output            |
+| :------------ | :----------------- | :----------------- | :------------------- | :---------------- |
+| GLM-5.3-Flash | ~~\$0.15~~ \$0.075 | ~~\$0.03~~ \$0.015 | Limited-time Free    | ~~\$0.50~~ \$0.25 |
+| GLM-5.3       | \$1.4              | \$0.26             | Limited-time Free    | \$4.4             |
+| GLM-5.2       | \$1.4              | \$0.26             | Limited-time Free    | \$4.4             |
 | GLM-5.1             | \$1.4  | \$0.26       | Limited-time Free    | \$4.4  |
 | GLM-5               | \$1    | \$0.2        | Limited-time Free    | \$3.2  |
 | GLM-5-Turbo         | \$1.2  | \$0.24       | Limited-time Free    | \$4.0  |
@@ -29,6 +30,10 @@ Prices per 1M tokens.
 | GLM-4-32B-0414-128K | \$0.1  | -            | -                    | \$0.1  |
 | GLM-4.7-Flash       | Free   | Free         | Free                 | Free   |
 | GLM-4.5-Flash       | Free   | Free         | Free                 | Free   |
+
+<Tip>
+  GLM-5.3-Flash is available at a 50% discount (strikethrough prices are list prices). The promotion ends at 24:00 on September 9, 2026 (UTC+8, Singapore time).
+</Tip>
 
 ### Vision Models
 
