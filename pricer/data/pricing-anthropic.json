@@ -1,7 +1,7 @@
 {
   "models": [
     {
-      "name": "claude-fable-5",
+      "name": "claude-fable-5-1",
       "input": {
         "cache_write": 12.5,
         "cached": 1,
@@ -11,7 +11,7 @@
       "recent": true
     },
     {
-      "name": "claude-mythos-5",
+      "name": "claude-fable-5",
       "input": {
         "cache_write": 12.5,
         "cached": 1,
@@ -19,6 +19,16 @@
       },
       "output": 50,
       "recent": false
+    },
+    {
+      "name": "claude-mythos-5",
+      "input": {
+        "cache_write": 12.5,
+        "cached": 1,
+        "normal": 10
+      },
+      "output": 50,
+      "recent": true
     },
     {
       "name": "claude-opus-5",
