@@ -1,10 +1,20 @@
 {
   "models": [
     {
+      "name": "gpt-6-astra",
+      "input": {
+        "cache_write": 12.5,
+        "cached": 1,
+        "normal": 10
+      },
+      "output": 50,
+      "recent": true
+    },
+    {
       "name": "gpt-5.6-sol",
       "input": {
         "cache_write": 5,
-        "cached": 0.5,
+        "cached": 0.4,
         "normal": 4
       },
       "output": 20,

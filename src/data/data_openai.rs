@@ -7,8 +7,15 @@ pub const OPENAI: ProviderPricing = ProviderPricing {
 
 const OPENAI_MODELS: &[ModelPricing] = &[
 	ModelPricing {
+		name: "gpt-6-astra",
+		input_cached: Some(1.0),
+		input_normal: 10.0,
+		output_normal: 50.0,
+		output_reasoning: None,
+	},
+	ModelPricing {
 		name: "gpt-5.6-sol",
-		input_cached: Some(0.5),
+		input_cached: Some(0.4),
 		input_normal: 4.0,
 		output_normal: 20.0,
 		output_reasoning: None,
